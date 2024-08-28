@@ -10,15 +10,15 @@ export default function HeroSection() {
         height={200}
         className="mb-8"
       />
-      <h1 className="text-4xl font-bold text-white">
+      <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-bold text-white">
         Your Trusted Partner in Toledo Metro Real Estate
       </h1>
-      <p className="text-lg text-white mt-4">
+      <p className="text-xl text-white mt-4">
         Discover Premier Commercial and Residential Spaces with Dominguez Properties
       </p>
       <div className="mt-8">
         <button className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
-          Explore Listings
+          Contct Us
         </button>
       </div>
     </div>

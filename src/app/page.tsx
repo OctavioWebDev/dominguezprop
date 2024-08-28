@@ -13,10 +13,7 @@ export default function Home() {
       <AboutSection />
       <BenefitsSection />
       <ServicesSection />
-      <section className="">
-        <h2 className="text-3xl font-semibold text-white mb-16 text-center">Words of Encouragement</h2>
-        <BibleVerseSlider />
-      </section>
+      <BibleVerseSlider />
       <FeaturesSection />
       <CallToActionSection />
     </main>

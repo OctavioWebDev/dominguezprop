@@ -16,7 +16,7 @@ export default function AboutSection() {
 
       {/* Copy Tile */}
       <div className="w-full md:w-1/2 p-6">
-        <h2 className="text-3xl font-semibold text-white mb-6">About Dominguez Properties</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-white mb-6">About Dominguez Properties</h2>
         <p className="text-base text-white leading-relaxed mb-4">
           Founded in 1988 by Mario Dominguez, Dominguez Properties has been a cornerstone in the Toledo metro area's real estate landscape for over three decades. With a deep commitment to quality and service, we specialize in offering top-tier commercial space rentals, residential rental properties, and property flipping.
         </p>

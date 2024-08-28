@@ -41,8 +41,8 @@ const BibleVerseSlider = () => {
   }, []);
 
   return (
-    <section className="testimonial-carousel -z-50 relative w-full min-h-[16rem] overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-200 to-transparent dark:via-gray-800 opacity-50"></div>
+    <section className="testimonial-carousel -z-50 relative w-full h-full overflow-hidden mt-16 mb-16">
+      <h2 className="text-4xl font-semibold text-white text-center">The Word Of God</h2>
       <div className="text-center px-4 py-8 relative z-10">
         {verses.map((verse, index) => (
           <blockquote key={index} className={`text-xl italic font-semibold text-gray-900 dark:text-white transition-opacity duration-700 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0 absolute'}`}>
