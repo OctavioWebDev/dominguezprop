@@ -11,7 +11,7 @@
 }
 
 html {
-  background-color: rgb(var(--background-end-rgb)); /* Set the background color for the html element */
+  background-color: rgb(var(--background-end-rgb));
 }
 
 body {
