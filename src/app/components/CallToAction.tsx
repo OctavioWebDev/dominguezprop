@@ -11,8 +11,8 @@ export default function CallToActionSection() {
             <Image
                 src={backgroundImage}
                 alt="Background"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
                 quality={100}
             />
             <div className="absolute inset-0 bg-gray-500 opacity-70 z-10"></div>
