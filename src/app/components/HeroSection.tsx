@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -11,15 +12,15 @@ export default function HeroSection() {
         className="mb-8"
       />
       <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-bold text-white">
-        Your Trusted Partner in Toledo Metro Real Estate
+        Your Trusted Partner in Toledo Metro Area
       </h1>
       <p className="text-xl text-white mt-4">
         Discover Premier Commercial and Residential Spaces with Dominguez Properties
       </p>
       <div className="mt-8">
-        <button className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
+        <Link href="/Contact" className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
           Contct Us
-        </button>
+        </Link>
       </div>
     </div>
   );

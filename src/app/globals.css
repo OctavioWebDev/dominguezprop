@@ -5,9 +5,9 @@
 
 
 :root {
-  --foreground-rgb: 86,86,86; /* White foreground */
-  --background-start-rgb: 177,183,183; /* #fafafa */
-  --background-end-rgb: 86,86,86 ; /* #09090b */
+  --foreground-rgb: 28, 25, 23;
+  --background-start-rgb: 177,183,183;
+  --background-end-rgb: 86,86,86 ;
 }
 
 body {
@@ -24,4 +24,29 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 4s ease-out forwards;
+}
+
+.animate-fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 4s ease-out 2s forwards;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 5s ease-out, transform 5s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
