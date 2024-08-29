@@ -2,14 +2,13 @@
 
 import React from 'react';
 import Image from 'next/image';
-import backgroundImage from '/Users/octaviosanchez/dominguezprop/public/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg';
 import Link from 'next/link';
 
 export default function CallToActionSection() {
     return (
         <section className="relative mt-16 w-screen py-20">
             <Image
-                src={backgroundImage}
+                src='/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg'
                 alt="Background"
                 fill
                 style={{ objectFit: 'cover' }}
