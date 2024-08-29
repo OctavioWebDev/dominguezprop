@@ -10,6 +10,10 @@
   --background-end-rgb: 86,86,86 ;
 }
 
+html {
+  background-color: rgb(var(--background-end-rgb)); /* Set the background color for the html element */
+}
+
 body {
   background: radial-gradient(
     circle,
