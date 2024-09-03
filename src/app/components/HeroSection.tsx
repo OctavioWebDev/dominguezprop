@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center text-center">
       <Image
-        src="/logos/Untitled design (4).png"
+        src="/logos/84e68a35-6097-4994-8cfb-e22cac306f4a (1).png"
         alt="Dominguez Properties Logo"
         width={500}
         height={200}
