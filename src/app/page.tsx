@@ -5,7 +5,7 @@ import AboutSection from "./components/AboutSection";
 import BenefitsSection from "./components/BenefitsSection";
 import ServicesSection from "./components/ServicesSection";
 import FeaturesSection from "./components/FeaturesSection";
-
+import LogoSection from "./components/LogoSection";
 export default function Home() {
   return (
     <main className="">
@@ -16,6 +16,7 @@ export default function Home() {
       <BibleVerseSlider />
       <FeaturesSection />
       <CallToActionSection />
+      <LogoSection />
     </main>
   );
 }
