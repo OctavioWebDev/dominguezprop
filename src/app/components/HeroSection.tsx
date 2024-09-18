@@ -19,7 +19,7 @@ export default function HeroSection() {
       </p>
       <div className="mt-8">
         <Link href="/Contact" className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
-          Contct Us
+          Contact Us
         </Link>
       </div>
     </div>
