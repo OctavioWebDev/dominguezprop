@@ -24,7 +24,7 @@ export default function BenefitsSection() {
     <>
     <Banner 
           title="Why Choose Dominguez Properties?" 
-          backgroundImage="/images/scott-blake-x-ghf9LjrVg-unsplash.jpg"
+          backgroundImage="/images/DOMPROP/5255-Hill-Ave-Toledo-OH-Primary-Photo-1-HighDefinition.jpg"
         />
     <section className="mt-16 mb-16 max-w-6xl mx-auto px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -23,7 +23,7 @@ export default function FeaturesSection() {
     <>
     <Banner
     title="Features That Set Us Apart"
-    backgroundImage='/images/ivan-bandura-Wv2U24G2F78-unsplash.jpg'
+    backgroundImage='/images/DOMPROP/1825-1853-Eastgate-Rd-Toledo-OH-Primary-Photo-1-Large.jpg'
     />
     <section className="mt-16 max-w-6xl mx-auto px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
