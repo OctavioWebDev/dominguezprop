@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+// Import Helvetica Neue as a system font with fallbacks to other fonts
+const helveticaNeue = {
+  className: "font-helvetica",
+  style: {
+    fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+  },
+};
+
 
 export const metadata: Metadata = {
   title: "Dominguez Properties",
-  description: "Discover Premier Commercial and Residential Spaces with Dominguez Properties",
+  description: "Discover Premier Commercial Spaces with Dominguez Properties",
 };
 
 export default function RootLayout({
@@ -16,8 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={`${helveticaNeue.className}`} style={helveticaNeue.style}>
+        {children}
+      </body>
     </html>
   );
 }
+
 

@@ -18,13 +18,13 @@ export default function AboutSection() {
       <div className="w-full md:w-1/2 p-6">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-white mb-6">About Dominguez Properties</h2>
         <p className="text-base text-white leading-relaxed mb-4">
-          Founded in 1988 by Mario Dominguez, Dominguez Properties has been a cornerstone in the Toledo metro area's real estate landscape for over three decades. With a deep commitment to quality and service, we specialize in offering top-tier commercial space rentals, residential rental properties, and property flipping.
+          Founded in 1988, Dominguez Properties has been a cornerstone in Northwest Ohio's real estate landscape for over three decades. With a deep commitment to quality and service, we specialize in offering top-tier, cost-effective commercial rentals in prime locations for new entrepreneurs.        
         </p>
         <p className="text-base text-white leading-relaxed mb-4">
-          At Dominguez Properties, we believe in creating lasting value through meticulous property management and innovative real estate solutions. Whether you're looking to establish your business in a prime commercial location or seeking a new place to call home, we are dedicated to helping you find the perfect fit.
+          At Dominguez Properties, we believe in creating lasting value through reliable property management and innovative real estate solutions. Our focus is on providing spaces allowing businesses to thrive in the most sought-after locations.       
         </p>
         <p className="text-base text-white leading-relaxed">
-          As a family-owned and operated business, we pride ourselves on our personalized approach. Mario Dominguez's vision was to build a company that not only meets the needs of its clients but also contributes to the community. Today, we continue to uphold this legacy, offering integrity, transparency, and a relentless commitment to excellence in everything we do.
+          As a family-owned and operated business, we pride ourselves on our personalized approach. Our commitment to integrity, transparency, and excellence continues to drive our mission of helping companies establish themselves in the community with ease.       
         </p>
       </div>
     </section>

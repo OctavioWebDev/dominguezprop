@@ -12,10 +12,10 @@ export default function HeroSection() {
         className="mb-8"
       />
       <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-bold text-white">
-        Your Trusted Partner in Toledo Metro Area
+        Your Trusted Partner in North West Ohio
       </h1>
       <p className="text-xl text-white mt-4">
-        Discover Premier Commercial and Residential Spaces with Dominguez Properties
+        Discover Cost Effective Premier Commercial Spaces  with Dominguez Properties
       </p>
       <div className="mt-8">
         <Link href="/Contact" className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">

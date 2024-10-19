@@ -1,22 +1,23 @@
 import Image from 'next/image';
 import Banner from "./Banner";
-const services = [
-  {
-    title: "Commercial Space Rentals",
-    description: "We offer a diverse portfolio of commercial properties in prime locations throughout the Toledo metro area. Whether you're a small business owner or a large corporation, we have the perfect space to accommodate your needs.",
-    // image: "/images/commercial-rentals.jpg"
-  },
-  {
-    title: "Residential Rentals",
-    description: "We offer a wide range of residential rental properties, from cozy apartments to spacious family homes. Our properties are well-maintained and located in desirable neighborhoods, ensuring you find a comfortable and welcoming space.",
-    // image: "/images/residential-rentals.jpg"
-  },
-  {
-    title: "Property Flipping and Investment",
-    description: "Our expertise in property flipping allows us to turn undervalued properties into high-quality investments. We handle every aspect of the process, from acquisition to renovation and resale.",
-    // image: "/images/property-flipping.jpg"
-  }
-];
+const services = 
+  [
+    {
+      title: "Commercial Space Rentals",
+      description: "We offer a diverse portfolio of commercial properties in prime locations throughout Northwest Ohio. Whether you're a small business owner or a large corporation, we have the perfect space to accommodate your needs.",
+      image: "/images/DOMPROP/1825-1853-Eastgate-Rd-Toledo-OH-Primary-Photo-1-Large.jpg"
+    },
+    {
+      title: "Flexible Leasing Options",
+      description: "Our flexible leasing terms are designed to meet the unique needs of businesses at any stage of growth. Whether you need short-term or long-term agreements, we provide the flexibility to help your business thrive.",
+      image: "/images/DOMPROP/2857-AIRPORTHWY.jpg"
+    },
+    {
+      title: "Property Management Services",
+      description: "We take the hassle out of managing your commercial space. From maintenance and repairs to tenant services, our dedicated property management team ensures your space operates smoothly so you can focus on your business.",
+      image: "/images/DOMPROP/135AIRPORTHWYSWANTONOHIO.jpg"
+    }
+  ];
 
 export default function ServicesSection() {
   return (
@@ -29,13 +30,13 @@ export default function ServicesSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div key={index} className="shadow-2xl overflow-hidden">
-            {/* <Image
+            <Image
               src={service.image}
               alt={service.title}
               width={400}
               height={300}
               className="w-full h-48 object-cover"
-            /> */}
+            />
             <div className="p-6">
               <h3 className="text-3xl text-white font-bold mb-2">{service.title}</h3>
               <p className="text-white text-xl">{service.description}</p>
