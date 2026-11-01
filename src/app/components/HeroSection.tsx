@@ -17,9 +17,12 @@ export default function HeroSection() {
       <p className="text-xl text-white mt-4">
         Discover Cost Effective Premier Commercial Spaces  with Dominguez Properties
       </p>
-      <div className="mt-8">
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
         <Link href="/Contact" className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
           Contact Us
+        </Link>
+        <Link href="/gallery" className="border border-white text-white px-6 py-3 rounded-lg shadow-lg hover:bg-white hover:text-black transition duration-300">
+          View Gallery
         </Link>
       </div>
     </div>
