@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function CallToActionSection() {
     return (
-        <section className="relative mt-16 w-screen py-20">
+        <section className="relative mt-16 w-full py-20">
             <Image
                 src='/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg'
                 alt="Background"
@@ -24,7 +24,7 @@ export default function CallToActionSection() {
                 </div>
                 <div className="mt-8">
                     <Link href="/Contact" className="bg-white text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
-                        Contct Us
+                        Contact Us
                     </Link>
                 </div>
             </div>
