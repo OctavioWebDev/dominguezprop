@@ -6,7 +6,6 @@ import BenefitsSection from "./components/BenefitsSection";
 import ServicesSection from "./components/ServicesSection";
 import FeaturesSection from "./components/FeaturesSection";
 import LogoSection from "./components/LogoSection";
-import SpaceCalculator from "./components/SpaceCalculator";
 export default function Home() {
   return (
     <main className="">
@@ -16,7 +15,6 @@ export default function Home() {
       <ServicesSection />
       <BibleVerseSlider />
       <FeaturesSection />
-      <SpaceCalculator />
       <CallToActionSection />
       <LogoSection />
     </main>
