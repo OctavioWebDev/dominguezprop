@@ -13,7 +13,7 @@ const features = [
   },
   {
     title: "Expert Renovations and Upgrades",
-    description: "Our experience us to offer renovated spaces that are both cost effective and functional, using high-quality.",
+    description: "Our experience allows us to offer renovated spaces that are both cost effective and functional, using high-quality materials.",
     image: "/images/DOMPROP/2857-AIRPORTHWY.jpg"
   }
 ];

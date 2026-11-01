@@ -4,12 +4,12 @@ import Banner from "./Banner";
 const benefits = [
   {
     title: "Local Expertise with Decades of Experience",
-    description: "With over 30 years of experience in the North West Ohio, we have an in-depth understanding of the local real estate market. Our expertise ensures that you receive the best advice and opportunities tailored to your specific needs.",
+    description: "With over 30 years of experience in Northwest Ohio, we have an in-depth understanding of the local real estate market. Our expertise ensures that you receive the best advice and opportunities tailored to your specific needs.",
     image: "/images/DOMPROP/2857-AIRPORTHWY.jpg"
   },
   {
     title: "Comprehensive Property Solutions",
-    description: "We specialize in cost effective commercial spaces in prime locations, offering a wide range of options to suit your business. If your looking for a commercial space for your new business, we have the perfect solution for you.",
+    description: "We specialize in cost effective commercial spaces in prime locations, offering a wide range of options to suit your business. If you're looking for a commercial space for your new business, we have the perfect solution for you.",
     image: "/images/DOMPROP/149-151-E-Airport-Hwy-Swanton-OH-Building-Photo-4-LargeHighDefinition.jpg"
   },
   {
