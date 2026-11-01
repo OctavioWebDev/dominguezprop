@@ -4,6 +4,9 @@ import GalleryGrid from '../components/GalleryGrid';
 import LogoSection from '../components/LogoSection';
 import { getCachedPhotos } from '@/lib/gallery/cached';
 
+// Also picks up gallery changes on its own every hour (see lib/gallery/cached.ts).
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: 'Gallery | Dominguez Properties',
   description: 'Photos of commercial properties managed by Dominguez Properties in Northwest Ohio.',

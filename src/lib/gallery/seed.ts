@@ -1,7 +1,7 @@
 import type { GalleryPhoto } from './types';
 
 // The property photos that ship with the site. They show until the first change is
-// saved in the admin, after which the saved list (which starts from these) is used.
+// saved in the gallery admin app, after which the saved list (which starts from these) is used.
 const photos: Array<[file: string, projectName: string, location: string]> = [
   ['2857-AIRPORTHWY.jpg', '2857 Airport Hwy', 'Toledo, OH'],
   ['5255-Hill-Ave-Toledo-OH-Primary-Photo-1-HighDefinition.jpg', '5255 Hill Ave', 'Toledo, OH'],
